@@ -1,6 +1,6 @@
 # practice_fastapi
 
-# requierments
+**requierments**
 pip install pororo, fastapi[all]
 
 
