@@ -14,8 +14,8 @@ $ docker run -it --name (하고싶은 이름) -p (호스트의 포트):(컨테�
 ```
 예시)
 ```shell
-* $ docker run -it --name mycontainer -p 1234:2222 myimage
-* $ docker run -it --name mycontainer -p 192.168.0.1:1234:2222 myimage
+$ docker run -it --name mycontainer -p 1234:2222 myimage
+$ docker run -it --name mycontainer -p 192.168.0.1:1234:2222 myimage
 ```
 -p 옵션을 여러번 사용하여 여러개의 포트를 개방할수도 있습니다. 또한 호스트의 특정 IP와 바인딩 할 수 있습니다.
 
