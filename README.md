@@ -29,6 +29,6 @@ $ uvicorn main:app --reload --port 2222 --host 0.0.0.0
 
 이러한 설정이 완료되고 호스트의 포트를 외부 포트에 바인딩해주면 최종적으로 외부접속이 가능하게 됩니다.
 호스트의 1234번 포트로 접속 → 1234번 포트는 컨테이너의 2222번 포트로 포워딩 → 서버 접근
-![](/image/port_forwarding.png)
+![](/image/docker_forwarding.png)
 
 
